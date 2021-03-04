@@ -23,7 +23,7 @@ type Article struct {
 var Articles []Article
 
 func homePage(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Welcome to the HomePage!")
+	fmt.Fprintf(w, "Welcome to the HomePage! ver 0.01")
 	fmt.Println("Endpoint Hit: homePage")
 }
 
@@ -36,8 +36,6 @@ func returnSingleArticle(w http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
 	key := vars["id"]
 
-
-	
 	// Loop over all of our Articles
 	// if the article.Id equals the key we pass in
 	// return the article encoded as JSON
