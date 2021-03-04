@@ -23,7 +23,7 @@ type Article struct {
 var Articles []Article
 
 func homePage(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Welcome to the HomePage! ver 0.01")
+	fmt.Fprintf(w, "Welcome to the HomePage! ver 0.02")
 	fmt.Println("Endpoint Hit: homePage")
 }
 
