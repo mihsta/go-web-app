@@ -1,4 +1,5 @@
 # go-web-app
+App for learning REST API
 
 GitHub: https://github.com/mihsta/go-web-app
 
